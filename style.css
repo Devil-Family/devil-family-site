@@ -6,23 +6,22 @@ body {
 }
 
 header {
-    min-height: 70vh;
+    min-height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px;
-    padding-top: 80px;
+    padding: 90px 40px 40px;
 }
 
 .logo {
-    width: 350px;
+    width: 260px;
     max-width: 80%;
 }
 
 h1 {
-    font-size: 4rem;
-    margin: 20px 0 10px;
+    font-size: 3.5rem;
+    margin: 10px 0;
 }
 
 .slogan {
@@ -69,8 +68,8 @@ nav a:hover {
 
 .section {
     max-width: 1000px;
-    margin: 60px auto;
-    padding: 40px 30px;
+    margin: 40px auto;
+    padding: 30px 30px;
     text-align: center;
 }
 
