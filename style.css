@@ -86,3 +86,39 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
+footer {
+    border-top: 1px solid #811b22;
+    margin-top: 80px;
+    padding: 40px 20px;
+    text-align: center;
+    background: #010000;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    color: #b8646a;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.footer-links a:hover {
+    color: #b8646a;
+}
+
+.copyright {
+    color: #888;
+    font-size: 0.9rem;
+}
