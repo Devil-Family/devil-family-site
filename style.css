@@ -203,7 +203,9 @@ footer {
 .game-list {
     list-style: none;
     padding: 0;
-    margin: 15px 0 0 0;
+    margin: 20px auto 0 auto;
+    display: inline-block;
+    text-align: left;
 }
 
 .game-list li {
@@ -211,9 +213,8 @@ footer {
 }
 
 .game-list li::before {
-    content: "• ";
+    content: "➜ ";
     color: #b8646a;
-    font-weight: bold;
 }
 .games-footer {
     text-align: center;
