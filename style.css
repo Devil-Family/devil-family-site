@@ -222,3 +222,38 @@ footer {
     margin: 40px auto;
     line-height: 1.8;
 }
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.support-card {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+}
+
+.support-card h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.support-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.support-message {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.support-message h3 {
+    color: #b8646a;
+    margin-bottom: 20px;
+}
