@@ -150,3 +150,27 @@ footer {
     line-height: 1.7;
     color: #ffffff;
 }
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.game-category {
+    background: rgba(129, 27, 34, 0.18);
+    border: 1px solid #811b22;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.game-category h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.game-category p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
