@@ -174,3 +174,11 @@ footer {
     margin: 8px 0;
     font-size: 1rem;
 }
+
+.category-desc {
+    font-size: 0.9rem;
+    color: #c7c7c7;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
