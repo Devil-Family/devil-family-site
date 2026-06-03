@@ -113,3 +113,17 @@ footer {
     color: #888888;
     font-size: 0.9rem;
 }
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #c96b6b;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
