@@ -86,16 +86,3 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
-.project {
-    max-width: 700px;
-    margin: 25px auto;
-    padding: 25px;
-    background: rgba(129, 27, 34, 0.2);
-    border: 1px solid #811b22;
-    border-radius: 14px;
-}
-
-.project h3 {
-    color: #ffffff;
-    margin-bottom: 10px;
-}
