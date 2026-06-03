@@ -91,7 +91,6 @@ footer {
     margin-top: 80px;
     padding: 40px 20px;
     text-align: center;
-    background: #010000;
 }
 
 .footer-content {
@@ -100,25 +99,17 @@ footer {
 }
 
 .footer-content h3 {
-    color: #b8646a;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
-.footer-links {
-    margin: 25px 0;
-}
-
-.footer-links a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 12px;
-}
-
-.footer-links a:hover {
-    color: #b8646a;
+.footer-content p {
+    color: #cccccc;
+    line-height: 1.7;
 }
 
 .copyright {
-    color: #888;
+    margin-top: 25px;
+    color: #888888;
     font-size: 0.9rem;
 }
