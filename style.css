@@ -6,12 +6,15 @@ body {
 }
 
 header {
-    min-height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 90px 40px 40px;
+
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+    min-height: auto;
 }
 
 .logo {
@@ -68,8 +71,8 @@ nav a:hover {
 
 .section {
     max-width: 1000px;
-    margin: 40px auto;
-    padding: 30px 30px;
+    margin: 20px auto;
+    padding: 20px 30px;
     text-align: center;
 }
 
