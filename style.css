@@ -323,12 +323,12 @@ footer {
 }
 .news-watermark {
     position: absolute;
-    right: -20px;
-    top: -20px;
+    right: -40px;
+    top: -30px;
 
-    width: 180px;
+    width: 220px;
 
-    opacity: 0.08;
+    opacity: 0.06;
 
     pointer-events: none;
 
