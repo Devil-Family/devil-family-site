@@ -387,3 +387,26 @@ footer {
     margin: 20px auto;
     text-align: left;
 }
+.home-links-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.home-link-card {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+}
+
+.home-link-card h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.home-link-card p {
+    margin-bottom: 20px;
+}
