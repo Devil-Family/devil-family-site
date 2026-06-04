@@ -362,10 +362,15 @@ footer {
     margin-bottom: 15px;
 }
 
-.contact-email {
+.contact-email a {
     color: #b8646a;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.contact-email a:hover {
+    color: #ffffff;
 }
 
 .faq-section {
