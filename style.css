@@ -466,3 +466,9 @@ footer {
 .association-page {
     padding-top: 100px;
 }
+.page-title {
+    color: #b8646a;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
