@@ -416,3 +416,50 @@ footer {
 .home-link-card p {
     flex-grow: 1;
 }
+.association-page h1 {
+    color: #b8646a;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.association-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 45px 0;
+}
+
+.association-card,
+.value-card,
+.association-final {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.association-card {
+    text-align: left;
+}
+
+.association-card h2,
+.association-final h2 {
+    color: #b8646a;
+    margin-top: 0;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.value-card h3 {
+    color: #ffffff;
+}
+
+.association-final {
+    margin-top: 50px;
+    text-align: center;
+}
