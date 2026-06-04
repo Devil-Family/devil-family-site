@@ -317,3 +317,26 @@ footer {
     margin: 0 auto 40px auto;
     line-height: 1.8;
 }
+.news-card {
+    position: relative;
+    overflow: hidden;
+}
+.news-watermark {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+
+    width: 180px;
+
+    opacity: 0.08;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+.news-card h3,
+.news-card p,
+.news-card .news-date {
+    position: relative;
+    z-index: 1;
+}
