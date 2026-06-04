@@ -403,6 +403,9 @@ footer {
     border-radius: 12px;
     padding: 25px;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .home-link-card h3 {
@@ -411,5 +414,5 @@ footer {
 }
 
 .home-link-card p {
-    margin-bottom: 20px;
+    flex-grow: 1;
 }
