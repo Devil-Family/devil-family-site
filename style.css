@@ -281,3 +281,39 @@ footer {
 .journal-entry p {
     margin-bottom: 0;
 }
+.news-card {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 1000px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(129, 27, 34, 0.4);
+}
+
+.news-date {
+    color: #d67b81;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.news-card h3 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.news-card p {
+    margin: 0;
+    line-height: 1.7;
+}
+.section-intro {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.8;
+}
