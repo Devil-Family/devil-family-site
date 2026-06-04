@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://devil-family.fr/sitemap.xml
