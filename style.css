@@ -340,3 +340,45 @@ footer {
     position: relative;
     z-index: 1;
 }
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.contact-card,
+.faq-card {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact-card h3,
+.faq-card h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.contact-email {
+    color: #b8646a;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.faq-section {
+    margin-top: 60px;
+}
+
+.faq-section h2 {
+    color: #b8646a;
+    margin-bottom: 30px;
+}
+
+.faq-card {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: left;
+}
