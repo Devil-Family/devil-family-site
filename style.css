@@ -257,3 +257,27 @@ footer {
     color: #b8646a;
     margin-bottom: 20px;
 }
+.journal-entry {
+    background: #240000;
+    border: 1px solid #811b22;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 850px;
+    text-align: left;
+}
+
+.journal-date {
+    color: #b8646a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.journal-entry h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.journal-entry p {
+    margin-bottom: 0;
+}
